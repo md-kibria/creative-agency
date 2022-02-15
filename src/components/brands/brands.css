@@ -1,0 +1,41 @@
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 300px;
+}
+
+.brands img {
+    width: 70px;
+}
+
+@media (max-width: 1050px) {
+
+    .brands {
+        padding: 10px 200px;
+    }
+
+    .brands img {
+        width: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .brands {
+        padding: 10px 150px;
+    }
+
+    .brands img {
+        width: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .brands {
+        padding: 10px 50px;
+    }
+
+    .brands img {
+        width: 50px;
+    }
+}

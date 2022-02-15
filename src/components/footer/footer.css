@@ -1,0 +1,147 @@
+.footer {
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: #5e5e5e; */
+    background-color: #fabb46;
+    padding: 50px 100px 20px 100px;
+    /* color: #fff; */
+}
+
+.footer .footerSubs {
+    text-align: center;
+    margin: 50px;
+}
+
+.footer .footerSubs h3 {
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.footer .footerSubs p {
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.footer .footerSubs .text,
+.footer .footerSubs .btnSend {
+    padding: 10px 10px;
+    border: 1px solid #111;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: transparent;
+}
+
+.footer .footerSubs .text::placeholder {
+    color: #000;
+}
+
+.footer .footerSubs .btnSend {
+    background-color: orange;
+    transition: .4s;
+}
+
+.footer .footerSubs .btnSend:hover {
+    background-color: orangered;
+}
+
+.footer .elm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer .footerSection h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0 10px 0;
+}
+
+.footer .footerSection ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footerSection li {
+    margin: 2px 0;
+}
+
+.footer .footerSection a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer .footerSection a:hover {
+    color: #fff;
+}
+
+.footer .footerEnd {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px 50px 0 50px; */
+    padding-top: 50px;
+}
+
+.footer .footerEnd .rev  p{
+    display: none;
+    visibility: hidden;
+}
+
+.footer .footerEnd h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer .footerEnd .social a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin: 0 5px;
+}
+
+.footer .footerEnd .social a:hover {
+    color: #fff;
+}
+
+@media (max-width: 850px) {
+    .footer .elm {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer {
+        padding: 50px 50px 20px 50px;
+    }
+
+    .footer .footerSubs {
+        margin: 20px;
+    }
+
+    .footer .footerEnd {
+        padding-top: 30px;
+    }
+
+    .footer .footerEnd {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footerEnd p{
+        display: none;
+        visibility: hidden;
+    }
+
+    .footer .footerEnd .rev {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .footerEnd .rev  p{
+        display: inline-block;
+        visibility: visible;
+    }
+}

@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render app 1`] = `
+"<nav class=\\"navbar\\">
+  <h1 class=\\"navLogo\\">Logo</h1>
+  <div class=\\"navComp\\"><i class=\\"fa fa-bars icon\\"></i>
+    <ul class=\\"navItems\\">
+      <li class=\\"navItem\\">
+        <p class=\\"navLink\\">Home</p>
+      </li>
+      <li class=\\"navItem\\">
+        <p class=\\"navLink\\">Services</p>
+      </li>
+      <li class=\\"navItem\\">
+        <p class=\\"navLink\\">Feedback</p>
+      </li>
+      <li class=\\"navItem\\">
+        <p class=\\"navLink\\">Contact</p>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class=\\"heroSection\\">
+  <div class=\\"textSection\\">
+    <h1>Lorem ipsum dolor sit amet consectetur elit quam elit adipisicing </h1>
+    <hr>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi enim quibusdam quaerat porro iusto facilis dolorum atque totam dolorem</p><button>Learn More</button>
+  </div>
+  <div class=\\"imgSection\\"><img src=\\"./img/hero.png\\" alt=\\"\\"></div>
+</div><img class=\\"heroBottomImg\\" src=\\"./img/hero.svg\\" alt=\\"\\">
+<div class=\\"brands\\"><img src=\\"./img/github.png\\" alt=\\"\\"><img src=\\"./img/html5.png\\" alt=\\"\\"><img src=\\"./img/javascript.png\\" alt=\\"\\"><img src=\\"./img/youtube.png\\" alt=\\"\\"><img src=\\"./img/css3.png\\" alt=\\"\\"><img src=\\"./img/google.png\\" alt=\\"\\"></div>
+<div class=\\"services\\">
+  <h2>Provide Services</h2>
+  <div class=\\"servicesContainer\\">
+    <div class=\\"serviceItem\\"><img src=\\"./img/home.png\\" alt=\\"\\">
+      <h2>Service Header</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum molestias, sint, distinctio facilis dolore placeat quidem consequatur, dicta nostrum maiores nobis</p>
+    </div>
+    <div class=\\"serviceItem\\"><img src=\\"./img/services.png\\" alt=\\"\\">
+      <h2>Service Header</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum molestias, sint, distinctio facilis dolore placeat quidem consequatur, dicta nostrum maiores nobis</p>
+    </div>
+    <div class=\\"serviceItem\\"><img src=\\"./img/website.png\\" alt=\\"\\">
+      <h2>Service Header</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum molestias, sint, distinctio facilis dolore placeat quidem consequatur, dicta nostrum maiores nobis</p>
+    </div>
+  </div>
+</div>
+<div class=\\"works\\">
+  <h2>Our Works</h2>
+  <div class=\\"worksContainer\\">
+    <div class=\\"workItem\\"><img src=\\"./works/1.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+    <div class=\\"workItem\\"><img src=\\"./works/2.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+    <div class=\\"workItem\\"><img src=\\"./works/6.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+    <div class=\\"workItem\\"><img src=\\"./works/4.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+    <div class=\\"workItem\\"><img src=\\"./works/5.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+    <div class=\\"workItem\\"><img src=\\"./works/3.jpg\\" alt=\\"\\">
+      <div class=\\"desc\\">
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione dolore necessitatibus recusandae qui tempora eligendi iusto neque repellat quo explicabo</p>
+        <div class=\\"links\\"><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-behance\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-link\\"></i></a><a href=\\"/\\" class=\\"link\\"><i class=\\"fa fa-github\\"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <div class=\\"btns\\"><button class=\\"left\\"><i class=\\"fa fa-chevron-left\\"></i></button><button class=\\"right\\"><i class=\\"fa fa-chevron-right\\"></i></button></div>
+</div>
+<div class=\\"feedbacks\\">
+  <h2>Clients Feedbacks</h2>
+  <div class=\\"feedbackContainer\\">
+    <div class=\\"feedbackItem\\">
+      <div class=\\"feedbackInfo\\">
+        <div class=\\"MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault\\"> E </div>
+        <div class=\\"text\\">
+          <h3>Emon Ali</h3>
+          <p>CEO of something</p>
+        </div>
+      </div>
+      <div class=\\"feedbackDesc\\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut dolore eos! Magnam eveniet quasi quibusdam cum, a aliquam minima labore quaerat.</div>
+    </div>
+    <div class=\\"feedbackItem\\">
+      <div class=\\"feedbackInfo\\">
+        <div class=\\"MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault\\"> N </div>
+        <div class=\\"text\\">
+          <h3>Nadim Khan</h3>
+          <p>CEO of something</p>
+        </div>
+      </div>
+      <div class=\\"feedbackDesc\\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut dolore eos! Magnam eveniet quasi quibusdam cum, a aliquam minima labore quaerat.</div>
+    </div>
+    <div class=\\"feedbackItem\\">
+      <div class=\\"feedbackInfo\\">
+        <div class=\\"MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault\\"> J </div>
+        <div class=\\"text\\">
+          <h3>John Doe</h3>
+          <p>CEO of something</p>
+        </div>
+      </div>
+      <div class=\\"feedbackDesc\\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut dolore eos! Magnam eveniet quasi quibusdam cum, a aliquam minima labore quaerat.</div>
+    </div>
+  </div>
+</div>
+<div class=\\"contact\\">
+  <div class=\\"contactDesc\\">
+    <h2>Lets contact with us at any time or any moment</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor explicabo, recusandae inventore consecteture</p>
+  </div>
+  <form class=\\"contactField\\"><input type=\\"text\\" class=\\"formControl\\" name=\\"name\\" placeholder=\\"Your name\\" value=\\"\\"><input type=\\"text\\" class=\\"formControl\\" name=\\"email\\" placeholder=\\"Your mail\\" value=\\"\\"><textarea name=\\"msg\\" id=\\"\\" cols=\\"30\\" rows=\\"10\\" class=\\"formControl\\" placeholder=\\"Your message\\"></textarea><button class=\\"send\\" type=\\"submit\\">Send</button></form>
+</div>
+<div class=\\"footer\\">
+  <div class=\\"footerSubs\\">
+    <h3>Join with our newsletter to receive our best deal</h3>
+    <div class=\\"subsField\\">
+      <p>You can unsubscribe any time</p>
+      <div class=\\"inputGroup\\"><input type=\\"text\\" class=\\"text\\" placeholder=\\"yourmail@example.com\\"><button class=\\"btnSend\\">Subscribe</button></div>
+    </div>
+  </div>
+  <div class=\\"elm\\">
+    <div class=\\"footerSection\\">
+      <h2>About US</h2>
+      <ul>
+        <li><a href=\\"/\\"> How it works </a></li>
+        <li><a href=\\"/\\"> Testomonial </a></li>
+        <li><a href=\\"/\\"> Carars </a></li>
+        <li><a href=\\"/\\"> Investors </a></li>
+        <li><a href=\\"/\\"> Terms of Services </a></li>
+      </ul>
+    </div>
+    <div class=\\"footerSection\\">
+      <h2>Contact US</h2>
+      <ul>
+        <li><a href=\\"/\\"> Contact </a></li>
+        <li><a href=\\"/\\"> Support </a></li>
+        <li><a href=\\"/\\"> Destinations </a></li>
+        <li><a href=\\"/\\"> Sponsorship </a></li>
+      </ul>
+    </div>
+    <div class=\\"footerSection\\">
+      <h2>Videos</h2>
+      <ul>
+        <li><a href=\\"/\\"> Submit Video </a></li>
+        <li><a href=\\"/\\"> Ambassadors </a></li>
+        <li><a href=\\"/\\"> Agency </a></li>
+        <li><a href=\\"/\\"> Influencer </a></li>
+      </ul>
+    </div>
+    <div class=\\"footerSection\\">
+      <h2>Social Media</h2>
+      <ul>
+        <li><a href=\\"/\\"> Instagram </a></li>
+        <li><a href=\\"/\\"> Facebook </a></li>
+        <li><a href=\\"/\\"> Youtube </a></li>
+        <li><a href=\\"/\\"> Twitter </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class=\\"footerEnd\\">
+    <h1>Logo</h1>
+    <p>©Creative Agency 2021</p>
+    <div class=\\"rev\\">
+      <div class=\\"social\\"><a href=\\"/\\"><i class=\\"fa fa-facebook\\"></i></a><a href=\\"/\\"><i class=\\"fa fa-youtube-play\\"></i></a><a href=\\"/\\"><i class=\\"fa fa-twitter\\"></i></a><a href=\\"/\\"><i class=\\"fa fa-instagram\\"></i></a></div>
+      <p>©Creative Agency 2021</p>
+    </div>
+  </div>
+</div>"
+`;

@@ -1,0 +1,128 @@
+.works {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #242424; */
+    background-color: #6836f3be;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.works h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+.worksContainer {
+    display: flex;
+    height: 300px;
+    /* width: 100%; */
+    padding: 20px 100px;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.workItem {
+    height: 100%;
+    padding: 0 10px;
+    position: relative;
+    transition: .4s;
+}
+
+.workItem:hover.workItem::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+    width: calc(100% - 20px);
+    background-color: #242424b6;
+    z-index: 1;
+    transition: .3s;
+}
+
+.workItem:hover .desc {
+    display: flex;
+}
+
+.workItem img {
+    height: 100%;
+}
+
+.works .btns {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.works .btns button {
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.desc {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 20px;
+    text-align: center;
+    z-index: 222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    display: none;
+}
+
+.desc  h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.desc p {
+    color: rgb(202, 202, 202);
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.desc .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    margin: 0  10px;
+    background-color: #242424;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+
+.desc .links a:hover {
+    background-color: #fff;
+    color: #242424;
+}
